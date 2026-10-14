@@ -1,11 +1,9 @@
 #include <stdio.h>
-#include <stdio.h> // For printf() and fprintf()
 #include <stdlib.h>
 #include <string.h>
-#include <string.h>    // For strcmp()
-#include <sys/types.h> // For pid_t
-#include <sys/wait.h>  // For waitpid() and WUNTRACED
-#include <unistd.h>    // For fork() and execvp()
+#include <sys/types.h>
+#include <sys/wait.h>
+#include <unistd.h>
 
 #define TK_BUFF_SIZE 64
 #define TOK_DELIM " \t\r\n"
